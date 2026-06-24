@@ -178,3 +178,58 @@ body{
   text-align:center;
   padding:20px;
 }
+/* =========================
+   MOBILE RESPONSIVE FIX
+========================= */
+
+@media (max-width: 768px) {
+
+  .header {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .hero-overlay {
+    flex-direction: column;
+    padding: 20px;
+    gap: 25px;
+  }
+
+  .hero-left h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .hero-left p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .hero-form {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .primary-btn {
+    display: block;
+    text-align: center;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .top-bar {
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+  }
+}
